@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350b82b86a928e648a7a9a0168d1bc5c, type: 3}
+  m_Name: WaveLvl4ArthurPath2
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3051910974607316204, guid: d8dbf3d4327ff6d4287f64c924dad682, type: 3}
+  pathPrefab: {fileID: 6230039961801878722, guid: ce40a2474aaf49743a79cbbea05e922f, type: 3}
+  timeBetweenSpawns: 6
+  numberOfEnemies: 3
+  moveSpeed: 1

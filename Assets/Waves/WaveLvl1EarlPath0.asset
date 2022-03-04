@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350b82b86a928e648a7a9a0168d1bc5c, type: 3}
+  m_Name: WaveLvl1EarlPath0
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6615346080250047300, guid: 803042784a3bf564da9339024708cc6d, type: 3}
+  pathPrefab: {fileID: 3823100719158515009, guid: 6c30688f3174c0846a3a719ac880b6de, type: 3}
+  timeBetweenSpawns: 0.6
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 5
+  moveSpeed: 3

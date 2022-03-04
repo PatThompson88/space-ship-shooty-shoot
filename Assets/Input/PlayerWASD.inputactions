@@ -1,0 +1,108 @@
+{
+    "name": "PlayerWASD",
+    "maps": [
+        {
+            "name": "PlayerGameControls",
+            "id": "e418527e-770a-4db4-a7a1-d9404f06fdd6",
+            "actions": [
+                {
+                    "name": "FirePrimary",
+                    "type": "Value",
+                    "id": "f56be679-2db7-4a1f-bf28-970652b7cda0",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "eeeaaca3-c3a1-4bb4-81c6-514c5b8bc231",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0be87129-86cb-4451-a62f-03b82a0652d8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "FirePrimary",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "9b89a0ef-7686-4624-aa62-83a5516e1779",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f722e6fb-3c8d-49ff-a6fb-52cde9b81958",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f6adb179-aee2-4143-b516-fd11d3a43b29",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "bbc3b495-d498-49a3-8882-a2582c01c211",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ad098c68-6a9a-41b4-8435-0a769c86e87b",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
